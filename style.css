@@ -1,0 +1,23 @@
+            
+            /* FORMAS DE DAR ESTILO*/
+            
+            /* ETIQUETA*/
+h1 {
+    color: rgb(255, 251, 37);
+    font-size: 24px;
+    background-color: rgb(2, 189, 27);
+}
+
+            /* Class */
+.parrafo1{
+    color: blue;
+    border-color: rgb(226, 4, 4);
+    font-family: sans-serif ;
+}
+
+
+            /* ID */
+#parrafo2{
+    color: black;
+    font-size: 20px;
+}
