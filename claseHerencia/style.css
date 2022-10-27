@@ -1,0 +1,17 @@
+html{
+    font-size: 75%;
+    font-family: Verdana;
+}
+h1{
+    font-size: inherit;
+}
+
+/*• Inherit:Establece que el valor de la propiedad sea heredado de la etiqueta padre.
+
+  • Initial:Establece que el valor de esa propiedad será establecida por la hoja de estilos del navegador.
+
+  •  Unset:El valor Unset es como usar Inherit e Initial al mismo tiempo,tiene dos casos.
+
+            En caso de que el valor se herede de forma natural, el valor de esta propiedad será heredado.
+
+            En caso de que el valor no se herede de forma natural funcionara como Initial.*/
