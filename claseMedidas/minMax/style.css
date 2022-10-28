@@ -7,13 +7,16 @@ main{
     width: 100vw;
     height: 100vh;
     background-color: blueviolet;
+    /* Las medidas vh y vw son medidas relativas de acuerdo al viewport */
 }
 
 section{
-    width: 80%;
-    min-width: 320px;
-    max-width: 500px;
-    min-height: 200px;
+    width: 80%/*debemos tener un width base que normalmente sera en porcentaje*/;
+    min-width: 320px;/*ancho minimo que puede alcanzar el elemento.
+    cuando el elemento supera su tamaño minimo aparece una barra de scroll para desplazarse y
+    asi poder recorrer el elemento para verlo*/
+    max-width: 500px;/*ancho maximo que puede alcanzar el elemento*/
+    min-height: 200px;/*alto maximo que puede alcanzar el elemento*/
     background-color: red;
     margin: 0 auto;
 }
