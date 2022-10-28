@@ -1,0 +1,9 @@
+main{
+    background-color: brown;
+    width: 600px;
+    height: 500px;}
+p {
+    font-size: 16px;}
+/* Px es una medida absoluta no cambia nunca
+   % es una medida relativa cambia segun el tamaño del dispositivo usado
+

@@ -1,0 +1,24 @@
+
+/*  h2 + p {
+     color: red;} */
+/* Hermano adyacente o cercano (adjacent sibling):aplica el estilo a los elementos que esten
+inmediatamente despues*/
+
+
+/*  h2~p{
+     color: blue;} 
+El combinador hermano general(~)separa dos selectores y hace coincidir todas las iteraciones del segundo elemento,
+que siguen al primer elemento(aunque no necesariamente inmediatamente)
+y son hijos del mismo elemento padre */
+
+
+/*  div > p{
+     color: green;} 
+Child Hijo Directo:se usa para poder seleccionar
+a los hijos inmediatos o directos de una etiqueta padre.*/
+
+
+/*  div p{
+     color: green;} 
+Descendiente (Descendant):Es un selector que nos permite seleccionar a los hijos de un elemento y 
+se representa mediante el carácter de espacio( )*/
