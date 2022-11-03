@@ -1,0 +1,27 @@
+.block-element{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(53, 53, 117);}
+    /*display block:utiliza toda la linea del width se puede usar margin y padding por todos los lados
+    Elementos block:
+<div> <article> <section> <header> <footer> <aside> <table> <p> <video> <ul> <ol> <h1> <h2> <h3> <h4> <h5> <h6>*/
+    span{
+        font-size: 36px;}
+    /*Display inline:ultiliza solo el espacio usado..permite a sus hnos ocupar espacio vacio;no permite width,height,solo margin-padding en left o right
+    Elementos inline:
+<a> <span> <img> <b> <i> <small> <cite> <code> <em> <strong> <br> <button> <input> <label> <select> <textarea>*/
+.nav{
+    background-color: rgb(104, 238, 92);
+    padding: 20px;
+    list-style: none;
+    text-align: center;}
+    /**/
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;}
+    /*inline-block:se puede usar margin y padding por todos lados,así como darle width y height,y el contenido es del mismo tamaño que el elemento.*/
+
+    /*display:none; no renderiza el contenido en la página.Se puede puede obtener un resultado similar si se utiliza visibility:hidden; Sólo que en este caso, el contenido será renderizado, en otras palabras, sí existe dentro de nuestra página, pero está oculto.*/

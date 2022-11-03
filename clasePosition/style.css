@@ -1,22 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+    box-sizing: border-box;}
 
 .parent{
     border: 2px black dotted;
-    display: inline-block;
-}
+    display: inline-block;}
 .box{
     display: inline-block;
     background-color: rgb(23, 80, 80);
     width: 100px;
-    height: 100px;
-}
+    height: 100px;}
 #two{
     background-color: green;
     position: relative;
-    bottom: 15px;
-}
+    bottom: 15px;}
+
 /*por defecto---> position:static*/

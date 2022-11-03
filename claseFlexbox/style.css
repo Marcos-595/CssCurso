@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    display: flex;/*para utilizar display:flex siempre se debe tener un contenedor principal*/
+    flex-direction: row;/* flex-direction por defecto viene row(alinea de izq a derecha)*/
+    flex-wrap: wrap;/*Permite que un elemento cuyo tamaño sea mayor al de la página haga un salto de línea sin salirse del contenedor,pues este se agranda.*/
+    justify-content:center/*alinea elementos horizontalmente*/;}
+
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.box1{
+    background-color: blue;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: red;
+}
+.box4{
+    background-color: rgb(255, 255, 0);
+}
+.box5{
+    background-color: rgb(179, 117, 3);
+}
+.box6{
+    background-color: rgb(148, 26, 148);
+}
