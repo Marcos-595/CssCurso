@@ -14,9 +14,11 @@ body{
     display: flex;/*para utilizar display:flex siempre se debe tener un contenedor principal*/
     flex-direction: row;/* flex-direction por defecto viene row(alinea de izq a derecha)*/
     flex-wrap: wrap;/*Permite que un elemento cuyo tamaño sea mayor al de la página haga un salto de línea sin salirse del contenedor,pues este se agranda.*/
-    justify-content:center/*alinea elementos horizontalmente*/;}
+    justify-content:center/*alinea elementos horizontalmente agregando un margen*/
+    align-items:/*alinea elementos verticalmente*/;}
 
 .box{
+    flex-flow:;/*Las dos propiedades flex-direction y flex-wrap,*/
     width: 10rem;
     height: 10rem;
 }

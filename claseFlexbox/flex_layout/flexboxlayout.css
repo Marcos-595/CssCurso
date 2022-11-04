@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+html{
+    font-size: 62.5%;}
+body{
+    font-size: 1.6rem;}
+.container{
+    border: 0.3rem solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    flex-basis: 10rem/*definir el tamaño inicial de nuestro elemento flexible teniendo en cuenta otras características.*/;
+    height: 10rem;
+    flex-grow: 1/*los elemtentos con order se ordenan hacia la derecha*/;}
+
+.box1{
+    background-color: blue;
+    /*flex-grow: 1;hace crecer el elemento de forma horiz*/}
+.box2{
+    background-color: green;
+    }
+.box3{
+    background-color: red;
+    /*los elementos que No tiene order se van a la izq*/
+    }
+.box4{
+    background-color: rgb(255, 255, 0);}
+.box5{
+    background-color: rgb(179, 117, 3);
+    }
+.box6{
+    background-color: rgb(148, 26, 148);
+    }

@@ -1,0 +1,37 @@
+:root{/*en la raiz declaramos variables q van a ser globales,empieza con(--)
+    Para reutilizar estilos que pueden repetirse en nuestro archivo .css y así ahorrar tiempo.*/
+    --primary-color:rgb(16, 168, 168);
+    --secundary-color:rgb(77, 77, 207);
+    --header-size:4rem;
+    --font:1.8rem;
+    --main-color:#21ac67;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0%
+}
+html{
+    font-size: 62.5%;/*para q 1rem=10px*/
+}
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color:var(--primary-color)/*asi llamamos var()*/;
+}
+main{
+    width: 100vw;
+    height: 70vh;
+    font-size:var(--font);
+    background-color: var(--main-color);
+    
+}
+h1{
+    font-size: var(--header-size);
+    color: var(--primary-color);
+}
+footer{
+    width: 100vw;
+    height: 15vh;
+    background-color:var(--secundary-color);
+}
