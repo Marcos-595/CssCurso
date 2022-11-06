@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%; /*para que 1rem = 10px*/
+}
+.container{
+    display: flex;/*para q los demas herede flex*/
+    flex-wrap: wrap;/*para q los div se repocisionen segun el tamaño del viewport*/
+}
+.c1,.c2,.c3,.c4,.c5{
+    width: 100%;
+    min-width: 150px;
+    height: 150px;
+}
+.c1{
+    background-color: blue;
+}
+.c2{
+    background-color: rgb(32, 21, 134);
+}
+.c3{background-color: rgb(108, 92, 245);}
+.c4{
+    background-color: rgb(88, 195, 238);
+}
+.c5{
+    background-color: rgb(212, 239, 252);
+}
